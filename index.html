@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen flex flex-col items-center">
+    <!-- Header -->
+    <header class="w-full bg-gray-800 p-4 shadow-lg" data-aos="fade-down">
+        <h1 class="text-3xl  font-bold text-center text-neon-green">Gaming Platform</h1>
+        <!-- Profile Section -->
+        <div class="flex flex-col items-center mt-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="w-40 h-40 rounded-full border-4 border-neon-green shadow-md"
+                style="background-image: url('assets/images/png/site-3-profile-img.jpg'); background-size: contain; background-position: right;">
+            </div>
+
+            <h2 class="text-xl font-semibold mt-4">John Doe</h2>
+            <p class="text-gray-400 text-center max-w-md mt-2">
+                A passionate gamer and game developer who loves exploring new games and creating immersive experiences
+                for others.
+            </p>
+        </div>
+    </header>
+
+    <main class="w-full max-w-5xl px-4 mt-8">
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4" data-aos="fade-right">Contact Us</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <a href="tel:+9992870242"
+                    class="flex items-center bg-gray-800 p-4 rounded-lg shadow-md hover:bg-gray-700 transition"
+                    data-aos="zoom-in">
+                    <span class="text-neon-blue font-medium">Mobile</span>
+                </a>
+                <a href="https://wa.me/9992870242" target="_blank"
+                    class="flex items-center bg-gray-800 p-4 rounded-lg shadow-md hover:bg-gray-700 transition"
+                    data-aos="zoom-in" data-aos-delay="100">
+                    <span class="text-neon-green font-medium">WhatsApp</span>
+                </a>
+                <a href="https://www.instagram.com/andi_rao_shab/profilecard/?igsh=b2Y5enR0cDBvMmJ0" target="_blank"
+                    class="flex items-center bg-gray-800 p-4 rounded-lg shadow-md hover:bg-gray-700 transition"
+                    data-aos="zoom-in" data-aos-delay="200">
+                    <span class="text-pink-500 font-medium">Instagram</span>
+                </a>
+                <a href="https://t.me/+X_00Kr3Ca8MzYTk1" target="_blank"
+                    class="flex items-center bg-gray-800 p-4 rounded-lg shadow-md hover:bg-gray-700 transition"
+                    data-aos="zoom-in" data-aos-delay="300">
+                    <span class="text-teal-400 font-medium">Telegram</span>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-semibold mb-4" data-aos="fade-left">Explore Games</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:bg-gray-700 transition" data-aos="flip-left">
+                    <h3 class="font-medium mb-2"> BDG Win</h3>
+                    <a href="https://www.bdgwin-apk.com//#/register?invitationCode=175235032196" target="_blank"
+                        class="px-4 py-2 rounded-lg inline-block text-center  text-blue-700 bg-white">
+                        Play Now
+                    </a>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:bg-gray-700 transition" data-aos="flip-left"
+                    data-aos-delay="100">
+                    <h3 class="font-medium mb-2"> BDG Game </h3>
+                    <a href="https://www.bdg2233.com//#/register?invitationCode=4285714191419" target="_blank"
+                        class="px-4 py-2 rounded-lg inline-block text-center text-blue-700 bg-white ">
+                        Play Now
+                    </a>
+                </div>
+                <!-- <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:bg-gray-700 transition" data-aos="flip-left"
+                    data-aos-delay="200">
+                    <h3 class="font-medium mb-2">Game 3</h3>
+                    <a href="https://example.com/game3" target="_blank"
+                        class="bg-neon-green text-gray-900 px-4 py-2 rounded-lg inline-block text-center">
+                        Play Now
+                    </a>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="w-full bg-gray-800 py-4 mt-8 text-center">
+        <p class="text-gray-400">
+            © <span id="currentYear"></span> Gaming Platform. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
